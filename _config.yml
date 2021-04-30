@@ -18,12 +18,12 @@ locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "FirstName LastName"
-description              : "Description"
+name                     : "Arnaud Poinas"
+description              : "Postdoctoral researcher in the SIGMA team of the CRIStAL laboratory of the CNRS."
 github                   : [metadata]
-url                      : "https://cristal-sigma.github.io"
+url                      : "https://APoinas.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "CRIStAL-Sigma/cristal-sigma.github.io"
+repository               : "APoinas.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -98,13 +98,13 @@ analytics:
 # _includes/author-profile.html
 # _includes/author-profile-custom-links.html
 author:
-  name: "FirstName LastName"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "My short bio"
+  name: "Arnaud Poinas"
+  avatar: "/assets/images/Profile.png"
+  bio: "Postdoctoral researcher in the SIGMA team of the CRIStAL laboratory of the CNRS."
   location: "Lille, France"
-  email: "my.name@email.com"
-  github: "CRIStAL-Sigma"
-  webpage: "https://cristal-sigma.github.io"
+  email: "arnaud.poinas@univ-lille.fr"
+  github: "APoinas"
+  webpage: "https://apoinas.github.io/"
   # Academic profiles
   # To make logo+link appear in author_profile on the left side of the page
   # - fill the corresponding field
@@ -116,7 +116,7 @@ author:
     acmdl:
     ads:
     africarxiv:
-    arxiv: # https://arxiv.org/a/<orcid-id | arxiv-id>
+    arxiv: https://arxiv.org/a/0000-0002-3553-6695
     biorxiv:
     ceur:
     ciencia-vitae:
@@ -133,7 +133,7 @@ author:
     dryad:
     elsevier:
     figshare:
-    google-scholar: #"https://scholar.google.com/citations?user=<user-id>=en"
+    google-scholar: https://scholar.google.com/citations?user=JhfFtHkAAAAJ&hl=fr
     hal: #https://orcid.org/<orcid-id>
     hypothesis:
     ideas-repec:
@@ -154,7 +154,7 @@ author:
     open-materials:
     obp:
     openedition:
-    orcid: #https://orcid.org/<orcid-id>
+    orcid: https://orcid.org/0000-0002-3553-6695
     osf:
     overleaf:
     philpapers:

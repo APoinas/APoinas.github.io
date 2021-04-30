@@ -4,7 +4,7 @@ author_profile: true
 classes: wide
 ---
 
-I am currently a XXX at [CRIStAL](https://www.cristal.univ-lille.fr/) in the [SigMA](https://www.cristal.univ-lille.fr/?rubrique27&eid=30) team in Lille.
+I'm a postdoctoral researcher in the SIGMA team of the CRIStAL laboratory of the CNRS in Lille. I am currently working with [Rémi Bardenet](https://rbardenet.github.io/) and [Adrien Hardy](http://math.univ-lille1.fr/~hardy/) on applications of Determinantal point processes for bayesian experimental design and on the statistical analysis of the marked point process of zeros and maxima of the spectrogram of white noise. I defended my PhD on the 4th of July in 2019 under the supervision of [Bernard Delyon](https://perso.univ-rennes1.fr/bernard.delyon/) and [Frédéric Lavancier](https://www.math.sciences.univ-nantes.fr/~lavancie/index.html).
 
 <div align="middle" style="margin-top: 50px">
   <a href="http://www.cnrs.fr/en"><img class='logo' alt="logo_cnrs" src="assets/images/logo_cnrs.png" align="bottom" style="width:100px;height:100px;"></a>
