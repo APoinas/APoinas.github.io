@@ -55,3 +55,30 @@ title: "Publications"
   <h2>Thesis</h2>
   {% bibliography --query @thesis %}
 {% endif %}
+
+<!-- Conference papers -->
+{% capture counter_inproceedings %}
+  {% bibliography_count --query @inproceedings %}
+{% endcapture %}
+{% if counter_inproceedings != "0" %}
+  <h2>Conference papers</h2>
+  {% bibliography --query @inproceedings %}
+{% endif %}
+
+<!-- Workshop papers -->
+{% capture counter_workshop %}
+  {% bibliography_count --query @misc[keywords=workshop] %}
+{% endcapture %}
+{% if counter_workshop != "0" %}
+  <h2>Workshop papers</h2>
+  {% bibliography --query @misc[keywords=workshop] %}
+{% endif %}
+
+<!-- Popularization -->
+{% capture counter_popularization %}
+  {% bibliography_count --query @misc[keywords=popularization] %}
+{% endcapture %}
+{% if counter_popularization != "0" %}
+  <h2>Popularization</h2>
+  {% bibliography --query @misc[keywords=popularization] %}
+{% endif %}
