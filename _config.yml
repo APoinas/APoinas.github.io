@@ -306,7 +306,7 @@ plugins:
 
 # https://github.com/inukshuk/jekyll-scholar
 scholar:
-  style: apa # ./_bibliography/<any-style>.csl> from https://github.com/citation-style-language/styles
+  style: ./_bibliography/apa.csl # apa ./_bibliography/<any-style>.csl> from https://github.com/citation-style-language/styles
   locale: en
 
   sort_by: year

@@ -39,9 +39,7 @@ title: "Publications"
 {% endif %}
 
 <!-- Preprints -->
-{% capture counter_preprints %}
-  {% bibliography_count --query @unpublished %}
-{% endcapture %}
+{% capture counter_preprints %}{% bibliography_count --query @unpublished %}{% endcapture %}
 {% if counter_preprints != "0" %}
   <h2>Preprints</h2>
   {% bibliography --query @unpublished %}
@@ -57,28 +55,15 @@ title: "Publications"
 {% endif %}
 
 <!-- Conference papers -->
-{% capture counter_inproceedings %}
-  {% bibliography_count --query @inproceedings %}
-{% endcapture %}
+{% capture counter_inproceedings %}{% bibliography_count --query @inproceedings %}{% endcapture %}
 {% if counter_inproceedings != "0" %}
   <h2>Conference papers</h2>
   {% bibliography --query @inproceedings %}
 {% endif %}
 
 <!-- Workshop papers -->
-{% capture counter_workshop %}
-  {% bibliography_count --query @misc[keywords=workshop] %}
-{% endcapture %}
+{% capture counter_workshop %}{% bibliography_count --query @misc[keywords=workshop] %}{% endcapture %}
 {% if counter_workshop != "0" %}
   <h2>Workshop papers</h2>
   {% bibliography --query @misc[keywords=workshop] %}
-{% endif %}
-
-<!-- Popularization -->
-{% capture counter_popularization %}
-  {% bibliography_count --query @misc[keywords=popularization] %}
-{% endcapture %}
-{% if counter_popularization != "0" %}
-  <h2>Popularization</h2>
-  {% bibliography --query @misc[keywords=popularization] %}
 {% endif %}
