@@ -6,4 +6,4 @@ author_profile: true
 title: "Publications"
 ---
 
-My resume can be found (in French) [here](https://apoinas.github.io/files/CV.pdf).
+My resume can be found (in French) [here](https://apoinas.github.io/assets/pdfs/CV.pdf).
