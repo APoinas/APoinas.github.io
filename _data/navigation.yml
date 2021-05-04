@@ -2,5 +2,7 @@
 main:
   - title: "Publications"
     url: /publications/
-  - title: "Quick-Start Guide"
-    url: https://github.com/CRIStAL-Sigma/cristal-sigma.github.io/blob/master/README.md
+  - title: "CV"
+    url: /CV/
+#- title: "Quick-Start Guide"
+#url: https://github.com/CRIStAL-Sigma/cristal-sigma.github.io/blob/master/README.md
