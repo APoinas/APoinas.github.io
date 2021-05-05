@@ -36,6 +36,13 @@
         </a>
     {% endif %}
 
+    {% if entry.hal %}
+        <a class="btn" href="https://hal.archives-ouvertes.fr/{{ entry.hal }}">
+            <i class="ai ai-hal"></i>
+            <span>HAL</span>
+        </a>
+    {% endif %}
+
     {% if entry.code %}
         <a class="btn" href="{{ entry.code }}">
             <i class="fab fa-fw fa-github"></i>
